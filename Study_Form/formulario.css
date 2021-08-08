@@ -1,3 +1,47 @@
+/* Todos os elementos da página */
 * {
-  /* background-color: #5F7C8A; */
+  margin: 0;
+  padding: 0;
+}
+
+/* Elementos com ID "titulo" */
+#titulo {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 7%;
+}
+
+/* Elementos com o ID ""subtitulo */
+#subtitulo {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 10%;
+}
+
+#check {
+  display: inline-block;
+}
+
+/* Elementos de tag <fieldset> */
+fieldset {
+  border: 0;
+}
+
+/* Elemento de tag <body> */
+body {
+  background-color: #F0F8FF;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  margin-left: 36%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+/* Elementos de tag <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #59429d;
+  border-radius: 5px;
 }
